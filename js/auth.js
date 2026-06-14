@@ -1,4 +1,4 @@
-const API_URL = 'clann-zu-blog-backend-production.up.railway.app/users';
+const API_URL = 'https://clann-zu-blog-backend-production.up.railway.app';
 
 document.addEventListener('DOMContentLoaded', () => {
   const token = localStorage.getItem('token');
