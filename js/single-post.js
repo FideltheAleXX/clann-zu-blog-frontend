@@ -1,4 +1,4 @@
-const API_URL = 'clann-zu-blog-backend-production.up.railway.app/posts';
+const API_URL = 'https://clann-zu-blog-backend-production.up.railway.app/posts';
 
 async function loadSinglePost() {
   const urlParams = new URLSearchParams(window.location.search);
