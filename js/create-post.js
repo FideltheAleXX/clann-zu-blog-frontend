@@ -1,7 +1,7 @@
 import { loadPosts } from './posts.js';
 
 //CREATE POST
-const API_URL = 'clann-zu-blog-backend-production.up.railway.app';
+const API_URL = 'clann-zu-blog-backend-production.up.railway.app/posts';
 
 async function createPost(e) {
   e.preventDefault();

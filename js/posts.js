@@ -1,5 +1,5 @@
 // POSTS-page
-const API_URL = 'clann-zu-blog-backend-production.up.railway.app';
+const API_URL = 'clann-zu-blog-backend-production.up.railway.app/posts';
 
 export async function loadPosts() {
   const container = document.getElementById('posts-container');
